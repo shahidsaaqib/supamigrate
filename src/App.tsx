@@ -54,7 +54,7 @@ const App = () => {
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename="/supamigrate">
           <Routes>
             <Route path="/setup" element={<Setup />} />
             <Route path="/*" element={
