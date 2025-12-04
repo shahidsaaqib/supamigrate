@@ -1,0 +1,7 @@
+project_id = "hihnjeqcofweirxhozbg"
+
+[functions.get-schema]
+verify_jwt = false
+
+[functions.init-database]
+verify_jwt = false
